@@ -1,20 +1,29 @@
 {
   "name": "flex-view",
   "version": "0.1.0",
-  "description": "",
-  "main": "build/dist/index.js",
+  "description": "Wrapper around flex+view, setup flex layout using props",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^16.2.0"
+    "react": "*",
+    "react-native": "*",
+    "@types/react": "*"
   },
   "dependencies": {
-    "react": "*",
     "lodash": "*",
-    "css-rn": "^0.2.0",
-    "react-native": "*"
+    "css-rn": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikatun/flex-view"
+  },
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.5.3"
   }
 }
