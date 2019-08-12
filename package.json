@@ -1,6 +1,6 @@
 {
   "name": "flex-view",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper around flex+view, setup flex layout using props",
   "main": "dist/index.js",
   "scripts": {
